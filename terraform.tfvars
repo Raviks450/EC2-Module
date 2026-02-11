@@ -1,7 +1,0 @@
-project     = "qwiklabs-gcp-02-9875b40d692e"
-region      = "us-central1"
-zone        = "us-central-c"
-name        = "MyterraformVM"
-machinetype = "e2-micro"
-image       = "n1-standard-1"
-network     = "default"
