@@ -1,6 +1,6 @@
 resource "google_compute_instance" "default" {
   name         = var.name
-  machine_type = var.machinetype
+  machine_type = var.machine_type
   region       = var.region
   zone         = var.zone
 
@@ -24,6 +24,6 @@ variable "project"{}
 variable "region"{}
 variable "zone"{}
 variable "name"{}
-variable "machinetype"{}
+variable "machine_type"{}
 variable "image"{}
 variable "network"{}
