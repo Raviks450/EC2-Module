@@ -1,12 +1,3 @@
-#Variables
-variable "region"{}
-variable "zone"{}
-variable "name"{}
-variable "machine_type"{}
-variable "image"{}
-variable "network"{}
-
-
 resource "google_compute_instance" "default" {
   name         = var.name
   machine_type = var.machine_type
