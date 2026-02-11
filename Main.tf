@@ -1,5 +1,5 @@
 resource "google_compute_instance" "default" {
-  name         = MyTerraformVM
+  name         = var.name
   machine_type = var.machinetype
   region       = var.region
   zone         = var.zone
