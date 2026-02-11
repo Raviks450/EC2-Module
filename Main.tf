@@ -1,7 +1,7 @@
 resource "google_compute_instance" "default" {
-  name         = var.VMName
-  machine_type = var.machine_type
-  zone         = var.zone
+  name         = MyTerraformVM
+  machine_type = "us-central1"
+  zone         = "us-central1-a"
 
   boot_disk {
     initialize_params {
