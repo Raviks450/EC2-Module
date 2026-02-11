@@ -18,3 +18,12 @@ resource "google_compute_instance" "default" {
     }
   }
 }
+
+#Variables
+variable "project"{}
+variable "region"{}
+variable "zone"{}
+variable "name"{}
+variable "machinetype"{}
+variable "image"{}
+variable "network"{}
