@@ -6,3 +6,4 @@ variable "machinetype"{}
 variable "image"{}
 variable "network"{}
 
+
