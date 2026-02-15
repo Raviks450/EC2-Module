@@ -20,8 +20,9 @@ variable "image" {
 }
 
 variable "network" {
-  default = "PREMIUM"
+  default = "default"
 }
+
 
 
 
