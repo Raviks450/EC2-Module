@@ -1,7 +1,3 @@
-github = {
-source = "integrations/github"
-}
-
 resource "google_compute_instance" "default" {
   name         = var.name
   machine_type = var.machine_type
@@ -18,7 +14,7 @@ resource "google_compute_instance" "default" {
   
 # Define the network interface using the "default" network
   network_interface {
-    network_tier = "PREMIUM"
+    network =var.network
     # Assign an ephemeral public IP
     access_config {
     }
