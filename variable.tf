@@ -20,7 +20,8 @@ variable "image" {
 }
 
 variable "network" {
-  default = "default"
+  type        = string
+  description = "The name or self_link of the network to attach this interface to."
 }
 
 
