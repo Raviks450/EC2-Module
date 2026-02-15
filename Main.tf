@@ -4,6 +4,7 @@ resource "google_compute_instance" "default" {
   region       = var.region
   zone         = var.zone
   project      =var.project
+  network      = var.network
 
   boot_disk {
     initialize_params {
