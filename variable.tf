@@ -18,3 +18,7 @@ variable "name"{
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
+variable "network" {
+  type        = string
+  description = "The name or self_link of the network to attach this interface to."
+}
