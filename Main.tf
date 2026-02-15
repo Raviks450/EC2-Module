@@ -1,8 +1,3 @@
-module "repository" {
-  source  = "mineiros-io/repository/github"
-  version = "0.18.0"
-}
-
 resource "google_compute_instance" "default" {
   name         = var.name
   machine_type = var.machine_type
