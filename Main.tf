@@ -14,7 +14,7 @@ resource "google_compute_instance" "default" {
   
 # Define the network interface using the "default" network
   network_interface {
-    network =var.network
+    network_tier = var.network
     # Assign an ephemeral public IP
     access_config {
     }
