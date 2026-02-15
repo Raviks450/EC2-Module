@@ -20,3 +20,10 @@ variable "name"{
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
+
+variable "network" {
+    default = "default"
+}
+
+
+
