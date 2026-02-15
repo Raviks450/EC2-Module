@@ -20,10 +20,9 @@ variable "image" {
 }
 
 variable "network" {
-  description = "The network name or self-link for the EC2 instance"
-  type        = string
-  default = "default" # Optional: add a default value
+  default = "PREMIUM"
 }
+
 
 
 
