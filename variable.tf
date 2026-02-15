@@ -2,11 +2,6 @@ variable "project" {
 default = "qwiklabs-gcp-02-b47e52381718"
 }
 
-variable "network" {
-default = "my-vpc"
-}
-
-
 variable "region" {
     default =    "us-central1"
 }
@@ -23,6 +18,7 @@ variable "name"{
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
+
 
 
 
