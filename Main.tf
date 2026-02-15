@@ -3,6 +3,7 @@ resource "google_compute_instance" "default" {
   machine_type = var.machine_type
   region       = var.region
   zone         = var.zone
+  project      =var.project
 
   boot_disk {
     initialize_params {
