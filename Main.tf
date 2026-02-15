@@ -12,7 +12,7 @@ resource "google_compute_instance" "default" {
     }
   }
   
-  # Define the network interface using the "default" network
+# Define the network interface using the "default" network
   network_interface {
     network = "default"
     # Assign an ephemeral public IP
