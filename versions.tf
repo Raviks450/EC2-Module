@@ -7,6 +7,5 @@ terraform {
   }
 }
 
-provider "github" {
-  token = var.token
-}
+# Configure the GitHub Provider
+provider "github" {}
