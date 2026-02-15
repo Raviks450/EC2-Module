@@ -15,7 +15,7 @@ variable "machine_type"{
     default = "n1-standard-1"
 }
 variable "name"{
-    default = "myterraform"
+    default = "myterraform-from-module"
 }
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
@@ -24,6 +24,7 @@ variable "image" {
 variable "network" {
     network = "default"
 }
+
 
 
 
