@@ -3,7 +3,8 @@ resource "google_compute_instance" "default" {
   machine_type = var.machine_type
   region       = var.region
   zone         = var.zone
-  project      =var.project
+  project      = var.project
+  network      = var.network
   
 
   boot_disk {
