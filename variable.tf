@@ -19,6 +19,13 @@ variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
 
+variable "network" {
+  description = "The network name or self-link for the EC2 instance"
+  type        = string
+  # default = "default" # Optional: add a default value
+}
+
+
 
 
 
