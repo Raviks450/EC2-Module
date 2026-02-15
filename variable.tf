@@ -3,7 +3,7 @@ default = "qwiklabs-gcp-02-1e9645190d28"
 }
 
 variable "network" {
-name = "default"
+name = "my-vpc"
 }
 
 
@@ -23,6 +23,7 @@ variable "name"{
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
+
 
 
 
