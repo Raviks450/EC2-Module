@@ -1,5 +1,5 @@
 variable "project" {
-default = "qwiklabs-gcp-02-1e9645190d28"
+default = "qwiklabs-gcp-02-b47e52381718"
 }
 
 variable "network" {
@@ -23,6 +23,7 @@ variable "name"{
 variable "image" {
     default = "projects/debian-cloud/global/images/debian-12-bookworm-v20260210"
 }
+
 
 
 
