@@ -20,5 +20,5 @@ variable "image" {
 }
 variable "network" {
   type     = string
-  default  = "vpc-network"
+  default  = "default"
 }
