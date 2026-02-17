@@ -1,5 +1,5 @@
 variable "project" {
-default = "qwiklabs-gcp-01-d25f355c7436"
+default = "qwiklabs-gcp-02-4f3b99a7665c"
 }
 
 variable "region" {
