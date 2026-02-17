@@ -1,6 +1,4 @@
-variable "project" {
-default = "qwiklabs-gcp-02-4f3b99a7665c"
-}
+variable "project" {}
 
 variable "region" {
     default =    "us-central1"
