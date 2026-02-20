@@ -5,7 +5,7 @@ variable "region" {
 }
 
 variable "zone"{
-    default = "us-central1-c"
+    default = "us-central1-b"
 }
 variable "machine_type"{
     default = "n1-standard-1"
